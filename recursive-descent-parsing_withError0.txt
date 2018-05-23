@@ -1,0 +1,11 @@
+shouldBeTrue1 = (TRUE and t) or (False and F)
+print shouldBeTrue1
+shouldBeTrue2 = (1 or (0 and 1))
+print shouldBeTrue2
+shouldBeFalse1 = 0 and 1
+print shouldBeFalse1
+shouldBeFalse2 = not 1
+print shouldBeFalse2
+shouldBeFalse3 = (((true and false) or 0 ) and 0 )
+print shouldBeFalse3
+thisshouldntwork = true or )
